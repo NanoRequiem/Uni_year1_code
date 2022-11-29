@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct  7 13:38:51 2021
+
+@author: ed20b3m
+"""
+
+userTimes = int(input("which times tables would you like to display?: "))
+
+x = 0
+
+while(x <= 12):
+    print(x, "x", userTimes, "=", x*userTimes)
+    x += 1

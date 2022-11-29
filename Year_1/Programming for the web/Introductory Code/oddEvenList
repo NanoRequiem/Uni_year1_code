@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 28 15:34:30 2021
+
+@author: ed20b3m
+"""
+
+odd = []
+even = []
+
+for i in range(1, 51):
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+
+print(odd)
+print(even)

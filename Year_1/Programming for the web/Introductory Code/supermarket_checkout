@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 28 15:18:49 2021
+
+@author: ed20b3m
+"""
+
+print("check for alchohol availability")
+print("Please enter the following details")
+
+age = input("age: ")
+legalAge = input("legalAge: ")
+paidByCard = input("Pay by card(y/n): ")
+ageOnID = input("Age on ID: ")
+estimatedAge = input("Estimated Age: ")
+
+if((ageOnID == age) and (age >= legalAge)) or\
+        ((paidByCard == "y") or (paidByCard == "Y")) or (estimatedAge >= 21):
+    print("sell to customer")
+else:
+    print("refuse to sell to customer")

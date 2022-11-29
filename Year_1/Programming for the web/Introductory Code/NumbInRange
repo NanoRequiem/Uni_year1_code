@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 28 15:13:24 2021
+
+@author: ed20b3m
+"""
+
+userInputSTR = input("Please enter a number between 0 and 94: ")
+
+userInput = int(userInputSTR)
+
+if(userInput < 0 or userInput > 94):
+    print("number is not in range")
+else:
+    print("number is within range")

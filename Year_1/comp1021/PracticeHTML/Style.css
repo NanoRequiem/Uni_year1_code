@@ -1,0 +1,40 @@
+title{
+    color: darkcyan;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: darkcyan;
+    font-size: 80px;
+    text-Align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    font-size: 40px;
+    text-align: center;
+}
+
+a:link {
+    color: red;
+    text-align: center;
+}
+
+a:visited {
+    color: blue;
+    text-align: center;
+}
+
+a:hover {
+    color: hotpink;
+    text-align: center;
+}
+
+a:active {
+    color: lightblue;
+    text-align: center;
+}
